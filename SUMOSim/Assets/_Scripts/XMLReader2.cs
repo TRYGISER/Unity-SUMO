@@ -7,7 +7,7 @@ public class XMLReader2 : MonoBehaviour
 {
     /*pass in the directory URL for the car data generated from the command line:
     sumo –c map.sumo.cfg --fcd-output carData */
-    string path = "C:\\Users\\Andrew\\downloads\\map\\carData";
+    string path = "../Data Files/carData";
 
 	public List<GameObject> activeCars; //contains all cars currently in the scene
     XmlNodeList nodeList;   //contain every time frame of the simulation in a node list
